@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 4rem !important;
+  }
+  .posts {
+    margin-right: 3rem !important;
+    margin-top: 2rem !important;
+  }
+}
